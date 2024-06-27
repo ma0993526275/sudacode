@@ -1,0 +1,76 @@
+/******************************Start Global Rules************************** */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+:root{
+   --main-color :#2196f3;
+   --main-color-alt :#1787e0;
+   --red-color: #f44336;
+   --orang-color:#f59e0b;
+   --grenn-color:#22c55e;
+   --grey-color:#888;
+   --pragraf-color :#777;
+   --border-color :#dff0ff;
+   --backgroud-color:#ececec;
+   --main-transition :0.5s;
+   --hover-transition :0.5s;
+   --padding-section :100px;
+}
+body{
+   font-family: 'Cairo' sans-serif;
+   font-family: "Cairo", sans-serif;
+   margin: 0;
+}
+*:focus{
+  outline: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+::-webkit-scrollbar{
+  width: 15px;
+}
+::-webkit-scrollbar-track{
+  background-color: white;
+}
+::-webkit-scrollbar-thumb{
+  background-color: var(--main-color);
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: var(--main-color-alt);
+}
+.btn{
+  transition: var(--hover-transition);
+  -webkit-transition: var(--hover-transition);
+  -moz-transition: var(--hover-transition);
+  -ms-transition: var(--hover-transition);
+  -o-transition: var(--hover-transition);
+}
+textarea:focus::placeholder{
+  transition: var(--hover-transition);
+  -webkit-transition: var(--hover-transition);
+  -moz-transition: var(--hover-transition);
+  -ms-transition: var(--hover-transition);
+  -o-transition: var(--hover-transition);
+  opacity: 0;
+ }
+ input:focus::placeholder{
+  transition: var(--hover-transition);
+  -webkit-transition: var(--hover-transition);
+  -moz-transition: var(--hover-transition);
+  -ms-transition: var(--hover-transition);
+  -o-transition: var(--hover-transition);
+  opacity: 0;
+ }
+/******************************End global ruoles******************************/
