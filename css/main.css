@@ -73,4 +73,30 @@ textarea:focus::placeholder{
   -o-transition: var(--hover-transition);
   opacity: 0;
  }
+ .container{
+  margin-left: 100px;
+  margin-right: 100px;
+
+ }
 /******************************End global ruoles******************************/
+
+/*  start header */
+header{
+   margin-top: 30px;
+}
+header .logo{
+  color: var(--main-color);
+  font-weight: bold;
+}
+header .container{
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+header ul {
+  display: flex;
+  gap: 100px;
+}
+header ul a{
+  color: var(--main-color);
+}
